@@ -1,0 +1,15 @@
+{
+    "microservices": [
+        {
+            "name": "customer-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health"
+        }
+    ],
+    "microfrontends": [],
+    "svc": [],
+    "name": "afri-builder",
+    "version": "0.0.1",
+    "description": "afri-builder description",
+    "type": "bundle"
+}
