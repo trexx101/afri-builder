@@ -3,11 +3,14 @@
         {
             "name": "customer-ms",
             "stack": "spring-boot",
-            "healthCheckPath": "/api/health"
+            "healthCheckPath": "/api/health",
+            "dbms":"postgresql"
         }
     ],
     "microfrontends": [],
-    "svc": [],
+    "svc": [
+        "keycloak"
+    ],
     "name": "afri-builder",
     "version": "0.0.1",
     "description": "afri-builder description",

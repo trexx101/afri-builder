@@ -42,6 +42,7 @@ public class CacheConfiguration {
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
             createCache(cm, "oAuth2Authentication");
+            createCache(cm, com.logia.tech.domain.AppUser.class.getName());
             // jhipster-needle-caffeine-add-entry
         };
     }

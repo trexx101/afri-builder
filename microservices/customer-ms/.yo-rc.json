@@ -6,7 +6,7 @@
     "blueprints": [
       {
         "name": "generator-jhipster-entando",
-        "version": "7.2.0"
+        "version": "7.0.1"
       }
     ],
     "buildTool": "maven",
@@ -34,7 +34,7 @@
     "otherModules": [
       {
         "name": "generator-jhipster-entando",
-        "version": "7.2.0"
+        "version": "7.0.1"
       }
     ],
     "packageName": "com.logia.tech",
@@ -52,6 +52,9 @@
     "skipUserManagement": true,
     "testFrameworks": [],
     "websocket": false,
-    "withAdminUi": false
+    "withAdminUi": false,
+    "lastLiquibaseTimestamp": 1685455797000,
+    "entities": ["AppUser"],
+    "generateMfeForEntity": true
   }
 }
