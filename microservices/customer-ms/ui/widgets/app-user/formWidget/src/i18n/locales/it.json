@@ -1,0 +1,38 @@
+{
+  "error": {
+    "dataLoading": "Errore durante la connessione al server"
+  },
+  "common": {
+    "save": "Salva",
+    "dataSaved": "AppUser salvato/a con successo",
+    "dataDeleted": "AppUser eliminato/a con successo",
+    "notAuthenticated": "L'utente non è autenticato.",
+    "selectFile": "Carica nuovo file",
+    "selectImageFile": "Carica nuova immagine",
+    "download": "Scarica",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "yes": "Si",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} è obbligatorio"
+  },
+  "entities": {
+    "appUser": {
+      "deleteDialog": {
+        "title": "Elimina appUser",
+        "description": "Sei sicuro/a?"
+      },
+      "notFound": "AppUser non trovato/a",
+      "deleted": "AppUser eliminato/a",
+      "id": "ID",
+      "id": "entità.appUser.id",
+      "username": "entità.appUser.username",
+      "password": "entità.appUser.password",
+      "firstname": "entità.appUser.firstname",
+      "lastname": "entità.appUser.lastname",
+      "email": "entità.appUser.email"
+    }
+  }
+}
